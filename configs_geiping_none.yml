@@ -1,0 +1,44 @@
+Introduction: 'Geiping attack on FFHQ64 without defense.'
+optim: 'GAN_free'
+cost_fn: 'sim_cmpr0'
+set_seed: 0
+indices: 'def'
+weights: 'equal'
+init: 'randn'
+model: 'ResNet18'
+restarts: 1
+
+num_images: 1
+num_exp: 3
+target_id: 0
+lr: 0.1
+total_variation: 0.0001
+image_norm: 0.000001
+group_lazy: 0.01
+bn_stat: 0
+max_iterations: 2000
+gias_lr: 0.00001
+
+generative_model: ''
+gen_dataset: 'FFHQ64'
+dataset: 'FFHQ64'
+data_path: './data/ffhq'
+
+exp_name: 'geiping_ffhq_none'
+output_dir: './results/geiping_ffhq'
+
+geiping: true
+yin: false
+train_epochs: 5
+our_num_tries: 20
+
+defense_method: null
+defense_setting:
+  noise: 0.1
+  clipping: 4
+  compression: 20
+  representation: null
+  orthogonal: null
+
+ckpt: null
+lr_same_pace: false

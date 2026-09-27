@@ -1,0 +1,11 @@
+data/
+downloader/
+models/
+**/__pycache__/
+*.pyc
+*.pth
+*.tmp*
+
+results/*
+!results/summary/
+!results/summary/**
