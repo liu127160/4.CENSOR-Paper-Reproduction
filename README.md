@@ -1,4 +1,4 @@
-# CENSOR：基于正交子空间采样的梯度反演防御复现报告
+# CENSOR：基于正交子空间贝叶斯采样的梯度反演防御复现报告
 
 > 论文：**CENSOR: Defense Against Gradient Inversion via Orthogonal Subspace Bayesian Sampling**（NDSS 2025）  
 > 作者：Kaiyuan Zhang、Siyuan Cheng、Guangyu Shen、Bruno Ribeiro、Shengwei An、Pin-Yu Chen、Xiangyu Zhang、Ninghui Li  
